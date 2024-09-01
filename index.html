@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link rel='stylesheet' type='text/css' href='https://keatongamer1248.neocities.org/text/css/style.css'>
+    <title>KeatonGamer1248's World</title>
+    <!--Embed for Discord-->
+    <meta property="og:url" content="https://keatongamer1248.neocities.org">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="KeatonGamer's World!">
+    <meta property="og:description" content="Welcome to KeatonGamer1248's little corner on the World Wide Web!">
+    <meta property="author" content="KeatonGamer1248">
+    <meta property="og:image" content="https://keatongamer1248.neocities.org/img/icon_small.gif">
+    <meta name="theme-color" content="#ff0000">
+    <meta property="og:site_name" content="We have games and software here!">
+    <!--Scripts-->
+    <script type='text/javascript' src='//www.midijs.net/lib/midi.js'></script>
+    <script src="text/js/firework.js"></script>
+    <script src="https://keatongamer1248.neocities.org/text/js/marquee.js"></script>
+    <!--Website Icon-->
+    <link rel="shortcut icon" href="http://keatongamer1248.neocities.org/icon/favicon.ico"/> 
+  </head>
+  <body background="img/redbg.gif" text="#ffffff">
+    <center>
+      <img src="img/logo_new.gif">
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+      <img src="./img/doorsign.gif">
+      <br>
+      <a href="http://keatongamer1248.neocities.org/home.html">
+        <img src="./img/door.gif">
+      </a>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="http://keatongamer1248.neocities.org/pages/door.html"><img src="./img/rat.gif"></a>
+    <img src="./img/rainbow_line.gif" style="height: 3px; width: 99%;">
+    <center>
+		  <embed type="text/html" src="https://keatongamer1248.neocities.org/pages/hitcounter__________" width="150" height="60">
+    </center>
+    <script src="https://keatongamer1248.neocities.org/text/js/esheep.js"></script>
+    <script>
+      var petLink = window.location.href.toString().split("/");
+      var petName = petLink[petLink.length - 1];
+      if(petName == "") petName = petLink[petLink.length - 2];
+      petName = petName.toLowerCase();
+      var testPetLink = "https://raw.githubusercontent.com/Adrianotiger/desktopPet/master/Pets/" + petName + "/animations.xml";
+      console.log("Pet xml: " + testPetLink);
+      var testPet = new eSheep();
+      testPet.Start(testPetLink);
+    </script>
+    <script>
+      var sheep = new eSheep(); sheep.Start();
+    </script>
+  </body>
+</html>
